@@ -53,7 +53,7 @@ st.divider()
 num_imput=st.number_input(label='Pick a number ',min_value=0,max_value=10,step=1)
 st.write(f"you picked {num_imput}")
 # Text area 
-text_area=st.text_area(label='What do you want to tell me?',height=200,placeholder='Write your message here')
+text_area=st.text_area(label='What do you want to tell meeeee?',height=200,placeholder='Write your message here')
 st.write(text_area)
 
 

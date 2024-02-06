@@ -1,0 +1,14 @@
+prefix=/Users/ahmedsaid/Desktop/used_car_project/env
+exec_prefix=/Users/ahmedsaid/Desktop/used_car_project/env
+libdir=/Users/ahmedsaid/Desktop/used_car_project/env/lib
+includedir=/Users/ahmedsaid/Desktop/used_car_project/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/ahmedsaid/Desktop/used_car_project/env/lib -lfreetype
+Libs.private: -lz -L/Users/ahmedsaid/Desktop/used_car_project/env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2
